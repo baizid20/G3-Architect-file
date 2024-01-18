@@ -2,3 +2,61 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+header{
+    background-color:  rgba(255, 144, 14, 0.10);
+    /* background-color: deeppink; */
+    padding: 45px 240px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+nav>ul{
+    display:flex;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    color: #424242;
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+}
+.nav-title{
+    color:  #131313;
+font-size: 3rem;
+font-weight: 700;
+}
+       /* banner-style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto;
+}
+    .banner-title{
+        color: var(--Dark-01, #131313);
+text-align: center;
+
+font-size: 4rem;
+
+font-weight: 700;
+
+    }
+   .banner-description{
+        color: var(--Dark-03, #727272);
+text-align: center;
+
+font-size: 1rem;
+
+font-weight: 400;
+
+    }
+    .btn-primary{
+        border-radius: 0.5rem;
+        background: #FF900E;
+    }
