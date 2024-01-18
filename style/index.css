@@ -142,6 +142,30 @@ font-size: 3rem;
 font-weight: 700;
 
 }
+.facts-card-container{
+    display: flex;
+    gap: 5rem;
+    margin: auto 70px;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border: 1px solid orange;
+    text-align: center;
+    padding: 30px;
+   }
+.facts-card-container .card-stats{
+    color:  #424242;
+font-size: 3rem;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.card-title{
+    color:#727272;
+font-size: 1.25rem;
+font-weight: 600;
+margin-top: 5px;
+  }
 
 
 
