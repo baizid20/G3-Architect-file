@@ -246,10 +246,28 @@ line-height: 1.5rem;
 }
 .ten p{
   font-size: 1.5rem;  
+  
 }
 .Features-img{
+     width: 0px;
     height: 90%;
     margin-left: 90px;
+}
+.footer{
+    border: 1px solid blue;
+    margin: 7rem 15rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    
+}
+footer ,.foot-p{
+    text-align: center;
+    color:#424242;
+    font-size: 1.3rem;
+    padding: 2.37rem 25,63rem;
+
+    
+   
 }
 
 
@@ -271,6 +289,9 @@ line-height: 1.5rem;
 /* media responsive station */
 /* mobile Device */
 @media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+    }
     header {
         padding: 20px;
     }
@@ -278,7 +299,7 @@ line-height: 1.5rem;
     flex-direction: column ;
    }
     nav,
-    .teams-container, .pura-div{
+    .teams-container{
         flex-direction: column;
     }
     .teams-img-container{
@@ -299,14 +320,18 @@ line-height: 1.5rem;
     .sponser-img{
         margin-top: 1.5rem;
     }
-  
-
-/* Tablet or Medium Device*/
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    header {
-        padding: 50px;
-    }
-     nav {
+      
+        .Features-img {
+            width: 80%;
+            margin-left: 0;
+            background-color: red; /* Add a temporary style for testing */
+        }
+    
+    
+    .pura-div{
+        width: 100%;
         flex-direction: column;
     }
+
 }
+
